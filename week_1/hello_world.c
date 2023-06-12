@@ -4,9 +4,9 @@
 #include <stdio.h>
 
 int main(void) {
-
-    printf("Hello World\n");
-
+    // printing a cat
+    printf(" /\\___/\\\n"
+            "(=' w '=)\n");
     return 0;
 }
 
@@ -31,12 +31,13 @@ int main(void) {
 
 
 
-// Change the code to print this face
-// ~ ~
-// 0 0
-//  o
-//  -
+
+
+
+
 
 // Change the code to print this cat
-//  /\___/\
-// (=' w '=)
+/*  
+ /\___/\
+(=' w '=)
+ */
