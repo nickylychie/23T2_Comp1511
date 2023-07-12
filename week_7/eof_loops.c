@@ -7,9 +7,9 @@
 
 int main (void) {
 
-    char my_var;
-    while (scanf(" %c", &my_var) == 1) {
-        printf("Input: %c\n", my_var);
+    char my_var[MAX_LETTERS];
+    while (fgets(my_var, MAX_LETTERS, stdin) != NULL) {
+        fputs(my_var, stdout);
     }
 
     return 0;
